@@ -1,0 +1,28 @@
+CREATE TABLE public.table_m3
+(
+    satisfaction VARCHAR(20),
+    "Gender" VARCHAR(20),
+    "Customer_Type" VARCHAR(20),
+    "Age" INT,
+    "Type_of_Travel" VARCHAR(20),
+    "Class" VARCHAR(20),
+    "Flight_Distance" INT,
+    "Seat_comfort" INT,
+    "Inflight_wifi_service" INT,
+"Departure_Arrival_time_convenient" INT,
+    "Food_and_drink" INT,
+    "Gate_location" INT,
+    "Inflight_entertainment" INT,
+    "Online_support" INT,
+    "Ease_of_Online_booking" INT,
+    "On_board_service" INT,
+    "Leg_room_service" INT,
+    "Baggage_handling" INT,
+    "Checkin_service" INT,
+    "Cleanliness" INT,
+    "Online_boarding" INT,
+    "Departure_Delay_in_Minutes" INT,
+    "Arrival_Delay_in_Minutes" INT,
+);
+
+COPY public.table_m3 FROM 'C:\Users\Amelia Puspita Sari\Downloads\DATA ANALYST COURSE\Phase 2\project_m3\dags\P2M3_Amelia_dataraw.csv' DELIMITER ',' CSV HEADER;

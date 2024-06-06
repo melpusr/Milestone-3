@@ -1,0 +1,19 @@
+P2M3 - Conceptual Problems
+
+1. NoSQL adalah teknologi database yang dirancang untuk menyimpan data dengan struktur yang tidak terbatas pada model relasional tradisional. digunakan untuk menangani data dengan volume besar
+
+2. NoSQL digunakan untuk data dengan struktur yang beragam dan toleransi terhadap kegagalan, seperti aplikasi sosmed
+
+RDBMS digunakan untuk data dengan struktur yang stabil, memerlukan transaksi ACID, dan membutuhkan keamanan tinggi, seperti sistem manajemen informasi perusahaan 
+
+3. MongoDB adalah : -fleksibel 
+- sering digunakan dalam pengembangan aplikasi web dan mobile 
+
+Cassandra : toleransi terhadap kegagalan yang baik
+- sering digunakan dalam real-time analytic
+
+4. airflow adalah platform yang digunakan untuk penjadwalan, pengaturan dan pemantauan alur kerja data yang memungkinkan untuk mendefinisikan alur kerja secara otomatis sesuai dengan jadwal yang telah ditentukan
+
+5. great expectation (GX) alat validasi data open-source yang digunakan untuk memeriksa, memvalidasi, dan menguji kualitas data. dengan cara mengatur expectations pada data, dan alat ini akan memeriksa apakah data memenuhi expectations tersebut
+
+6. batch processing adalah cara untuk mengolah data dalam jumlah besar secara berkelompok, bukan secara real-time. data akan dikumpulkan, disimpan, dan diproses dengan jadwal tertentu. contoh penggunaannya termasuk pembuatan laporan keuangan bulanan. contoh tools yang digunakan adalah Apache Spark
